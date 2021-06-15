@@ -12,7 +12,7 @@ module.exports = {
 		tailwindcss,
 		// But others, like autoprefixer, need to run after
 		autoprefixer,
-
+		postCSSImport,
 		!dev && cssnano({
 			preset: "default",
 		}),
